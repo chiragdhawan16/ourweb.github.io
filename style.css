@@ -1,0 +1,175 @@
+
+@charset "UTF-8";
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	
+	margin:0;
+	padding:0;
+	background-color: #2b2b2b;
+	color: white;
+	background: url(images/background1.jpg),100% 100%;
+
+
+}
+html {
+  scroll-behavior: smooth;
+  
+}
+.navbar{
+	
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	align-self: flex-start;
+	z-index: 999;
+	background-color: rgb(60, 60, 60,0.7);
+	box-sizing: border-box;
+	position:sticky;	
+	top:0;
+	align-self: flex-end	;
+	width:100%;
+
+}
+.logo{
+	display: flex;
+	align-items: center;
+}
+.logo img{
+	height:30px;
+	width:50px;
+	margin-right: 10px;
+	
+}
+.nav-list{
+display: flex;
+align-items: center;
+}
+.nav-list li{
+	list-style:none;
+	margin:0 20px;
+	
+
+}
+
+.nav-list a{
+	text-decoration: none;
+	color:white;
+	}
+.navbar ul .active a{
+	color: #fc0;
+	
+}
+
+.navbar ul li a:hover{
+	color: #fc0;
+}
+
+.main-image img{
+	width: 100%;
+	height:600px;
+}
+
+.side-by-side1,.side-by-side2{
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin: 50px auto;
+
+}
+
+.side-by-side1-right,.side-by-side2-left{
+	background-color: rgb(60, 60, 60,0.7);
+	padding: 20px;
+}
+.side-by-side1-right:hover,.side-by-side2-left:hover{
+	background-color: #403f3f;
+}
+
+.side-by-side1 img,.side-by-side2 img{
+	width: 40%;
+}
+
+
+.card-container{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin-bottom: 80px;
+
+
+}
+.card-container-heading{
+	
+}
+.cards{
+	display: flex;
+	justify-content: center;
+	width: 80%;
+	margin: 10px auto;
+
+}
+
+.cards div{
+	width: 33.3%;
+	text-align: center;
+	background-color: rgb(60, 60, 60,0.7);
+	border-radius: 10px;
+	margin: 0 40px;
+
+}
+.cards img{
+	width: 100%;
+	height:200px;
+	border-radius: 10px;
+}
+.cards p{
+	margin: 10px;
+}
+.cards div:hover{
+	background-color: #403f3f;
+	
+
+}
+.card1, .card2{
+	margin-right: 10px;
+}
+	
+
+.cards h2{
+	text-align: center;
+}
+.cards p{
+	text-align: left;
+}
+
+
+.footer{
+	width: 100%;
+	background-color: rgb(60, 60, 60,0.7);
+	display: flex;
+	justify-content: center;
+
+}
+.footer div{
+	width: 20%;
+	margin: 0 50px;
+	
+}
+
+.footer-left{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.footer-right ul li{
+	
+}
+
+.footer-right ul li a{
+	text-decoration: none;
+	color: white;
+}
